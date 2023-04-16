@@ -1,0 +1,178 @@
+
+
+body{
+    background-color: rgb(78, 77, 90);
+}
+section#encabezado{
+    background-color: rgb(11, 15, 70);
+    box-shadow: 0 0 30px rgb(36, 222, 255);
+    border-radius: 20px;
+    width: 100%;
+    height:100px;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid;
+    border-collapse: unset;
+    padding: 10px 0px;
+}
+
+ .titulo{
+    color: white;
+    width: 100%;
+   
+    margin:  0px;
+    text-align: center;
+}
+
+section#container2{
+    width: 100%;
+    height: 450px;
+    box-shadow: 0 0 20px rgb(255, 98, 36);
+    margin: 40px auto;
+    background-image:  url("../imagenes/fondo5.jpeg");
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction:unset;
+    justify-content: center;
+}
+
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+}
+.card{
+    width: 280px;
+    height: 400px;
+    padding: 0.1rem 0.1rem;
+    position: relative;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+}
+.card:hover{
+    transform: translateY(20px);
+}
+.card:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(255, 130, 13),rgb(28, 13, 241));
+    z-index:2;
+    transition: 0.5s all;
+    opacity:0;
+}
+.card:hover:before{
+    opacity: 0.8;
+}
+
+.card img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.card .info{
+position: relative;
+z-index: 3;
+color: #fff;
+opacity: 0;
+transform: translateY(30px);
+transition: 0.5s all;
+
+}
+
+.card:hover .info{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card .info h1{
+    margin: 0;
+    text-align: center;
+}
+.card .info p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.card .info .btn{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+
+}
+
+.card .info .btn:hover{
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+}
+
+
+.modal-footer{
+    text-align: center;
+}
+
+
+
+.compuerta_and{
+   width: 100%;
+   
+   text-align: center;
+   border: collapse;
+   border: red 1px solid;
+ 
+}
+.compuerta_and th{
+    background: rgb(62, 162, 255);
+    text-align: center;
+    border: red 1px solid;
+ }
+
+ .compuerta_and td{
+    height: 50px;
+    text-align: center;
+    border: red 1px solid;
+    
+ }
+
+#piedepagina{
+    background-color: rgb(11, 15, 70);
+    box-shadow: 0 0 30px rgb(36, 222, 255);
+    border-radius: 20px;
+    width: 100%;
+    height:50px;
+    flex-direction: row;
+    
+   
+   
+  
+}
+
+h1.nombres{
+    text-align: center;
+ font-size: 20px;
+ color: white;
+padding: 10px 0px;
+}
+h1.correos{
+    text-align: center;
+ font-size: 12px;
+ color: white;
+ margin: 0px;
+}

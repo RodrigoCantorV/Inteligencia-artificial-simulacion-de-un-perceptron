@@ -1,0 +1,248 @@
+section#encabezado{
+    background-color: rgb(25, 152, 184);
+    box-shadow: 0 0 30px rgb(36, 222, 255);
+    border-radius: 20px;
+    width: 100%;
+    height:70px;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid;
+    border-collapse: unset;
+    padding: 10px 0px;
+}
+
+ .titulo{
+    color: white;
+    width: 100%;
+    margin:  0px;
+    text-align: center;
+    font-size: 25px;
+}
+.principal{
+ 
+    width: 100%;
+    height: 590px;
+    background: rgb(184, 182, 182);
+   margin: 10px 0px;
+}
+
+.cuerpo1{
+ 
+    width: 55%;
+    height: 96%;
+    margin: 10px;
+    background: rgb(107, 106, 106);
+    float: left;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+#titulo_tabla{
+    background:rgb(190, 184, 184);
+    margin: 10px;
+    height: 30px;
+}
+#titulo_tabla2{
+    background:rgb(190, 184, 184);
+    margin: 0px 10px;
+    height: 30px;
+  
+}
+
+#titulo_tabla h1{
+   text-align: center;
+   font-size: 25px;
+}
+
+#cuerpo_tabla{
+    background:rgb(190, 184, 184);
+    margin: 0px 10px;
+    height: 480px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+table{
+    background: rgb(21, 216, 241);
+    width: 770px;
+    margin: 10px;
+    border: 2px solid red;
+    border-collapse: collapse;
+    
+}
+
+table th{
+    border:2px solid red;
+    padding: 10px;
+    background:rgb(72, 142, 247);
+}
+
+table td{
+    border:2px solid red;
+    text-align: center;
+}
+
+
+#img9{
+    background-image:  url("../imagenes/comp9.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 150px;
+}
+
+
+#img10{
+    background-image:  url("../imagenes/comp10.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 150px;
+}
+
+#img1{
+    background-image:  url("../imagenes/comp1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 150px;
+}
+
+#img2{
+    background-image:  url("../imagenes/comp2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 150px;
+}
+
+
+#img3{
+    background-image:  url("../imagenes/comp3.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 150px;
+}
+
+#img4{
+    background-image:  url("../imagenes/comp4.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 150px;
+}
+
+#img5{
+    background-image:  url("../imagenes/comp5.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 150px;
+}
+
+#img6{
+    background-image:  url("../imagenes/comp6.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 150px;
+}
+
+#img7{
+    background-image:  url("../imagenes/comp7.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 150px;
+}
+
+#img8{
+    background-image:  url("../imagenes/comp8.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 150px;
+}
+
+table tr:hover{
+    background: rgb(59, 223, 127);
+}
+table td:hover{
+    background: rgb(48, 151, 248);
+}
+
+.cuerpo2{
+ 
+    width: 42%;
+    height: 96%;
+    margin: 10px;
+    background-color: rgba(75, 75, 75, 0.74);
+    float: left;
+    flex-direction: row;
+    justify-content: center;
+    border-collapse: unset;
+ 
+}
+
+#cuerpo_perceptron{
+
+	background-size: 100% 100%;
+    margin: 10px;
+    height: 300px;
+    
+}
+
+
+
+#comprobacion{
+    background: rgb(207, 200, 200);
+    margin: 10px;
+    height: 160px;
+    display: flex;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+
+
+
+
+
+#botones{
+    background: rgb(207, 200, 200);
+    margin: 10px;
+    padding: 10px;
+    height: 60px;
+}
+
+
+
+
+
+
+#final{
+  
+    width: 100%;
+    height: 20px;
+    display: inline-flex;
+    
+}
+
+#final1{
+    background-color: rgba(75, 75, 75, 0.74);
+    width: 70%;
+  margin: 0px 10px;
+  border-radius: 0px 10px;
+    
+}
+#final2{
+    background-color: rgba(199, 91, 29, 0.678);
+    width: 20%;
+    margin: -4px 5px;
+    border-radius: 8px;
+}
+
+ p{
+    font-size: 10px;
+}

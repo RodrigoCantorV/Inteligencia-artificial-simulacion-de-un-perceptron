@@ -1,0 +1,331 @@
+section#encabezado{
+    background-color: rgb(25, 152, 184);
+    box-shadow: 0 0 30px rgb(36, 222, 255);
+    border-radius: 20px;
+    width: 100%;
+    height:70px;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid;
+    border-collapse: unset;
+    padding: 10px 0px;
+}
+
+ .titulo{
+    color: white;
+    width: 100%;
+    margin:  0px;
+    text-align: center;
+    font-size: 25px;
+}
+.principal{
+ 
+    width: 100%;
+    height: 590px;
+    background: rgb(184, 182, 182);
+   margin: 10px 0px;
+}
+
+.cuerpo1{
+ 
+    width: 55%;
+    height: 96%;
+    margin: 10px;
+    background: rgb(107, 106, 106);
+    float: left;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+#titulo_tabla{
+    background:rgb(190, 184, 184);
+    margin: 10px;
+    height: 30px;
+}
+#titulo_tabla2{
+    background:rgb(190, 184, 184);
+    margin: 0px 10px;
+    height: 30px;
+  
+}
+
+#titulo_tabla h1{
+   text-align: center;
+   font-size: 25px;
+}
+
+#cuerpo_tabla{
+    background:rgb(190, 184, 184);
+    margin: 0px 10px;
+    height: 480px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+table{
+    background: rgb(21, 216, 241);
+    width: 880px;
+    margin: 10px;
+    border: 2px solid red;
+    border-collapse: collapse;
+    
+}
+
+table th{
+    border:2px solid red;
+    padding: 10px;
+    background:rgb(72, 142, 247);
+}
+
+table td{
+    border:2px solid red;
+    text-align: center;
+}
+
+table tr:hover{
+    background: rgb(59, 223, 127);
+}
+table td:hover{
+    background: rgb(48, 151, 248);
+}
+
+.cuerpo2{
+ 
+    width: 42%;
+    height: 96%;
+    margin: 10px;
+    background: rgb(107, 106, 106);
+    float: left;
+    flex-direction: row;
+    justify-content: center;
+    border-collapse: unset;
+ 
+}
+
+#cuerpo_perceptron{
+
+	background-size: 100% 100%;
+    margin: 10px;
+    height: 300px;
+    
+}
+
+#matrix{
+    margin: 5px 10px;
+    background-image:  url("../imagenes/imagen1.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    opacity: .4;
+    
+}
+
+#perceptron{
+    margin: 5px 10px;
+    background-image:  url("../imagenes/perceptron3.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    top: -290px;
+    left: 60px;
+   
+}
+
+#x1{
+    background: white;
+    width: 30PX;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    top: 9PX;
+    left: 20PX;
+}
+
+#x2{
+    background: white;
+    width: 30PX;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: -5PX;
+}
+
+#xn{
+    background: white;
+    width: 30PX;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    top: 155px;
+    left: -25PX;
+}
+#umbral{
+    background: white;
+    width: 100PX;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    top: 160px;
+    left: 90PX;
+}
+
+#coeap{
+    background: white;
+    width: 100PX;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 140px;
+    left: 290PX;
+}
+
+#D{
+    background: white;
+    width: 30PX;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    left: 480px;
+}
+
+#y{
+    background: white;
+    width: 30PX;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    top: -65px;
+    left: 450px;
+}
+
+#funact{
+    background: white;
+    width: 130PX;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: -165px;
+    left: 350px; 
+}
+
+#comprobacion{
+    background: rgb(207, 200, 200);
+    margin: 10px;
+    height: 165px;
+    display: flex;
+    
+}
+
+#imagen_com1{
+    background: rgb(107, 106, 106);
+    background-image:  url("../imagenes/compuerta_nor3.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 10px;
+    
+}
+
+#imagen_com2{
+    background-image:  url("../imagenes/tabla_nor3.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 10px;
+}
+
+#imagen_com3{
+    background: rgb(107, 106, 106);
+    width: 100%;
+    margin: 10px;
+}
+
+#X1{
+background: rgb(255, 255, 255);
+width: 40px;
+}
+#X2{
+    background: rgb(255, 255, 255);
+    width: 40px;
+    }
+    #X3{
+        background: rgb(255, 255, 255);
+        width: 40px;
+        }
+
+#Enviar{
+    
+    background: rgb(0, 204, 255);
+    position: relative;
+    left: 50px;
+}
+
+#respuesta{
+    background: rgb(255, 255, 255);
+    font-size: 15px;
+    margin: 10px;
+}
+
+#fa{
+    width: 160px;
+}
+
+
+#botones{
+    background: rgb(207, 200, 200);
+    margin: 10px;
+    padding: 10px;
+    height: 60px;
+}
+
+
+
+.compuerta_and{
+    width: 100%;
+    text-align: center;
+    border: collapse;
+    border: red 1px solid;
+    position: relative;
+    left: -5px;
+  
+ }
+ .compuerta_and th{
+     background: rgb(62, 162, 255);
+     text-align: center;
+     border: red 1px solid;
+  }
+ 
+  .compuerta_and td{
+     height: 50px;
+     text-align: center;
+     border: red 1px solid;
+     
+  }
+
+
+#final{
+  
+    width: 100%;
+    height: 20px;
+    display: inline-flex;
+    
+}
+
+#final1{
+    background-color: rgba(75, 75, 75, 0.74);
+    width: 70%;
+  margin: 0px 10px;
+  border-radius: 0px 10px;
+    
+}
+#final2{
+    background-color: rgba(199, 91, 29, 0.678);
+    width: 20%;
+    margin: -4px 5px;
+    border-radius: 8px;
+}
